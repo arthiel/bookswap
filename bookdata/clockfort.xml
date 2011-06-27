@@ -1,0 +1,93 @@
+<books>
+	<book>
+		<title>The Five Fists of Science</title>
+		<author>Matt Fraction</author>
+		<available>False</available>
+		<format>Book</format>
+		<borrowers>1</borrowers>
+		<rating>5</rating>
+		<tag>Steampunk</tag>
+		<tag>Graphic Novel</tag>
+	</book>
+    <book>
+        <title>The Middleman: The Collected Series Indispensability</title>
+        <author>Javier Grillo-Marxuach</author>
+        <available>False</available>
+        <format>Book</format>
+        <borrowers>1</borrowers>
+        <rating>8</rating>
+    </book>
+	<book>
+        <title>The Middleman: The Doomsday Armageddon Apocalypse</title>
+        <author>Javier Grillo-Marxuach</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>0</borrowers>
+        <rating>8</rating>
+    </book>
+    <book>
+        <title>Batman Beyond: Hush Beyond</title>
+        <author>Adam Beechen</author>
+        <available>False</available>
+        <format>Book</format>
+        <borrowers>1</borrowers>
+        <rating>6</rating>
+    </book>
+	<book>
+        <title>Batman: Haunted Knight</title>
+        <author>Jeph Loeb</author>
+		<author>Time Sale</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>0</borrowers>
+        <rating>8</rating>
+    </book>
+    <book>
+        <title>Fringe</title>
+        <author>Various Authors</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>7</rating>
+    </book>
+	<book>
+        <title>Fringe: Tales from the Fringe</title>
+        <author>Various Authors</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>6</rating>
+    </book>
+    <book>
+        <title>The New Avengers #1</title>
+        <author>Brian Michael Bendis</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>2</rating> 
+    </book>
+    <book>
+        <title>All-New Wolverine Saga #1</title>
+        <author>Jeph York</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>3</rating>
+    </book>
+    <book>
+        <title>The Return of Bruce Wayne #1</title>
+        <author>Grant Morrison</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>7</rating>
+    </book>	
+	<book>
+		<title>Tom Strong and the Robots of Doom #1</title>
+		<author>Peter Hogan</author>
+	    <available>True</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>4</rating>
+    </book>
+</books>
