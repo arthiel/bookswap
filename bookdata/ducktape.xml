@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<books>
+    <book>
+        <title>Ultimate X-Men: Ultimate Collection 1</title>
+        <author>Marvel</author>
+        <available>True</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>5</rating>
+    </book>
+    <book>
+        <title>30 Second Economics</booktitle>
+        <author>Donald Marron</author>
+        <available>False</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>5</rating>
+    </book>
+    <book>
+        <title>Girl with the Dragon Tattoo</title>
+        <author>Steig Larsson</author>
+        <available>False</available>
+        <format>Kindle</format>
+        <borrowers>None</borrowers>
+        <rating>7</rating>
+    </book>
+    <book>
+        <title>V for Vendetta</title>
+        <author>TBA</author>
+        <available>False</available>
+        <format>Book</format>
+        <borrowers>None</borrowers>
+        <rating>3</rating> 
+    </book>
+</books>
