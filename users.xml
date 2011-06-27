@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<users>
+    <user>
+        <username>ducktape</username>
+        <name>Emily Egeland</name>
+        <auth>admin</auth>
+        <books>bookdata/ducktape.xml</books>
+    </user>
+    <user>
+        <username>clockfort</username>
+        <name>Chris Lockfort</name>
+        <auth>user</auth>
+        <books>bookdata/clockfort.xml</books>
+    </user>
+</users>
