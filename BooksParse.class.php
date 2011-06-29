@@ -24,7 +24,8 @@
         {
             $item = $this->domdoc->getElementsByTagName("book");
             $x = 0;
-            foreach($item as $book){
+            foreach($item as $book)
+            {
                 $x++;
             }
             return $x;
@@ -58,10 +59,12 @@
         /** 
          * Display Books.
          */
-        public function display_books(){
+        public function display_books()
+        {
             $string = "";
             $item = $this->domdoc->getElementsByTagName("book");
-            foreach($item as $book){
+            foreach($item as $book)
+            {
                 $string .= "<p>" . $book->getElementsByTagName("title")->item(0)->nodeValue ."</p>";
             }
             return $string;
