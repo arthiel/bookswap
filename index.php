@@ -9,11 +9,9 @@
    $string = head();
    $string .= pre_content();
 
-   $mybooks = new BooksParse("bookdata/ducktape.xml");
-   $data = $mybooks->display_books();
    $string .= format_user("ducktape");
    $string .= format_user("clockfort");
-   $string .= fit_content($data);
+
    $string .= post_content();
    $string .= footer();
    echo $string;

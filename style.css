@@ -1,0 +1,26 @@
+body {
+    color: #707070;
+    font-family: Trebuchet MS, san-serif;
+}
+h4{
+    font-style: italic;
+    color: #B0B0B0;
+}
+.user{
+    margin: 10px;
+    width: 350px;
+    position: relative;
+    float: left;
+}
+.user h2{
+    color: #404040;
+}
+.user h3{
+    text-align: left;
+}
+.user img{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #A060A0; /* A06060, 60A0A0, 6060A0, 60A0A0, A060A0, A0A060 */
+    margin-right: 10px;
+}

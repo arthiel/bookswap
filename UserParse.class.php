@@ -8,7 +8,7 @@
         private $fullname;
         private $books;
         private $image;
-
+        private $numbooks;
         private $domdoc;
 
         /** 
@@ -18,7 +18,7 @@
         {
             $this->domdoc = new DomDocument;
             $this->domdoc->load('users.xml');
-            $users = $this->domdoc->getElementsByTagName('users');
+            $users = $this->domdoc->getElementsByTagName('user');
             foreach($users as $user)
             {
                 if($user->getElementsByTagName("username")->item(0)->nodeValue == $username)
@@ -27,6 +27,7 @@
                     $this->fullname = $user->getElementsByTagName("name")->item(0)->nodeValue;
                     $this->books = $user->getElementsByTagName("books")->item(0)->nodeValue;
                     $this->image = $user->getElementsByTagName("pic")->item(0)->nodeValue;
+                    
                 }
             }
         }
@@ -45,6 +46,23 @@
         public function get_fullname()
         {
             return $this->fullname;
+        }
+
+        /**
+         * Get user's book list
+         */
+        public function get_booklist()
+        {
+            $mybooks = new BooksParse("bookdata/".$this->username.".xml");
+            return $mybooks->display_books();
+        }
+
+        /** 
+         * Get user's number of books.
+         */
+        public function get_numbooks(){
+            $mybooks = new BooksParse("bookdata/".$this->username.".xml");
+            return $mybooks->get_numBooks();
         }
     }
 ?>
