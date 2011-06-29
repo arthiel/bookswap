@@ -4,12 +4,14 @@
         <username>ducktape</username>
         <name>Emily Egeland</name>
         <auth>admin</auth>
+        <pic>user_imgs/ducktape.jpg</pic>
         <books>bookdata/ducktape.xml</books>
     </user>
     <user>
         <username>clockfort</username>
         <name>Chris Lockfort</name>
-        <auth>user</auth>
+        <auth>admin</auth>
+        <pic>user_imgs/clockfort.jpg</pic>
         <books>bookdata/clockfort.xml</books>
     </user>
 </users>

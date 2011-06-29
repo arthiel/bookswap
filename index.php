@@ -11,16 +11,8 @@
 
    $mybooks = new BooksParse("bookdata/ducktape.xml");
    $data = $mybooks->display_books();
-
-   $myuser = new UserParse( "ducktape" );
-   $userImg = $myuser->get_image();
-   $userName = $myuser->get_fullname();
-
-   $string .= fit_content( "Book Swap: A site dedicated to sharing your books" );
-
-   $string .= "<br />".$userImg;
-   $string .= "<h2>".$userName."</h2>";
-
+   $string .= format_user("ducktape");
+   $string .= format_user("clockfort");
    $string .= fit_content($data);
    $string .= post_content();
    $string .= footer();
