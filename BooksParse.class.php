@@ -59,13 +59,18 @@
         /** 
          * Display Books.
          */
-        public function display_books()
+        public function display_books($limit)
         {
             $string = "";
             $item = $this->domdoc->getElementsByTagName("book");
+            $i = 1;
             foreach($item as $book)
             {
                 $string .= "<p>" . $book->getElementsByTagName("title")->item(0)->nodeValue ."</p>";
+                if($i >= $limit){
+                    return $string;
+                }
+                $i++;
             }
             return $string;
         }

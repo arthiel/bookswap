@@ -1,26 +1,66 @@
 body {
+    background-color: #F0F0F0;
     color: #707070;
-    font-family: Trebuchet MS, san-serif;
+    font-family: Arial, sans-serif;/*Trebuchet MS, san-serif;*/
 }
 h4{
     font-style: italic;
     color: #B0B0B0;
 }
+#header{
+    padding-top: 5px;
+}
+#contain{
+    background-color: #FFFFFF;
+    width: 900px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid;
+
+    padding-left: 10px;
+}
+#footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    font-size: 10px;
+    text-align: center;
+}
 .user{
-    margin: 10px;
-    width: 350px;
+    margin-left: 10px;
+    width: 260px;
     position: relative;
     float: left;
 }
 .user h2{
     color: #404040;
+    font-size: 20px;
 }
 .user h3{
     text-align: left;
+    color: #B0B0B0;
+}
+.user p{
+    font-size: 15px;
 }
 .user img{
     border-style: solid;
     border-width: 5px;
     border-color: #A060A0; /* A06060, 60A0A0, 6060A0, 60A0A0, A060A0, A0A060 */
     margin-right: 10px;
+}
+.user .info{
+    height: 70px;
+}
+.user img{
+    position: relative;
+    float: left;
+}
+.user .info .deets{
+    position: relative;
+    float: left;
+    line-height: 10px;
+}
+.user .books{
 }

@@ -17,7 +17,8 @@
      * Basic Div Styling will go here
      */
     function pre_content(){
-        $string = "<div id='header'> <h1>BookSwap</h1> <h4>Share your books with Friends!</h4></div>";
+        $string = "<div id='contain'>";
+        $string .= "<div id='header'> <h1>BookSwap</h1> <h4>Share your books with Friends!</h4></div>";
         return $string;
     }
 
@@ -39,12 +40,17 @@
         $userNumB = $thisuser->get_numbooks();
         
         $string = "<div class='user'>";
-        $string .= "<h2>";
+       
+        $string .= "<div class='info'>";
         $string .= $userImg;
-        $string .= $userName;
-        $string .= "</h2>";
+        $string .= "<div class='deets'>";
+        $string .= "<h2>".$userName."</h2>";
         $string .= "<h3>".$userNumB." Books </h3>";
-        $string .= $userBooks;
+        $string .= "</div>";
+        $string .= "</div>";
+        
+      
+        $string .= "<div class='books'>".$userBooks."</div>";
         $string .= "</div>";
         return $string;
     }
@@ -53,7 +59,9 @@
      * Basic end-Div Styling goes here.
      */
     function post_content(){
-
+        $string = "<div id='footer'>BookSwap 2011. Emily Egeland</div>";
+        $string .= "</div>";
+        return $string;
     }
 
     /**

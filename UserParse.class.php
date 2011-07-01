@@ -54,7 +54,7 @@
         public function get_booklist()
         {
             $mybooks = new BooksParse("bookdata/".$this->username.".xml");
-            return $mybooks->display_books();
+            return $mybooks->display_books(3);
         }
 
         /** 
