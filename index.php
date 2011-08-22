@@ -11,7 +11,7 @@
 
    $string .= format_user("ducktape");
    $string .= format_user("clockfort");
-
+   $string .= format_user("vickiek");
    $string .= post_content();
    $string .= footer();
    echo $string;

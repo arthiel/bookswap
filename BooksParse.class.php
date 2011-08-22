@@ -63,6 +63,9 @@
         {
             $string = "";
             $item = $this->domdoc->getElementsByTagName("book");
+            if( $limit == 0 ){
+                $limit = $item.size();
+            }
             $i = 1;
             foreach($item as $book)
             {
@@ -72,6 +75,34 @@
                 }
                 $i++;
             }
+            return $string;
+        }
+
+        /** 
+         * Display Books with editable fields in table
+         */
+        public function display_bookTable(){
+            $string = "";
+            $item = $this->domdoc->getElementsByTagName("book");
+            $string .= "<table class='booktable'>";
+            //print_r($item->item(0)->nodeValue);
+            $string .= "<tr>";
+            $string .= "<th> Title </th>";
+            $string .= "<th> Author </th>";
+            $string .= "<th> Format </th>";
+            $string .= "<th> Borrowers</th>";
+            $string .= "<th> Rating </th>";
+            foreach($item as $book)
+            {
+                $string .= "<tr>";
+                $string .= "<td>". $book->getElementsByTagName("title")->item(0)->nodeValue ."</td>";
+                $string .= "<td>" . $book->getElementsByTagName("author")->item(0)->nodeValue . "</td>";
+                $string .= "<td>" . $book->getElementsByTagName("format")->item(0)->nodeValue . "</td>";
+                $string .= "<td>" . $book->getElementsByTagName("borrowers")->item(0)->nodeValue . "</td>";
+                $string .= "<td>" . $book->getElementsByTagName("rating")->item(0)->nodeValue . "</td>";
+                $string .= "</tr>";
+            }
+            $string .= "</table>";
             return $string;
         }
     } // End BooksParse class

@@ -1,4 +1,5 @@
 <?php
+    require_once("BooksParse.class.php");
     /** 
      * Class dedicated to parsing the userdata xml.
      */
@@ -9,6 +10,7 @@
         private $books;
         private $image;
         private $numbooks;
+        private $color;
         private $domdoc;
 
         /** 
@@ -27,7 +29,7 @@
                     $this->fullname = $user->getElementsByTagName("name")->item(0)->nodeValue;
                     $this->books = $user->getElementsByTagName("books")->item(0)->nodeValue;
                     $this->image = $user->getElementsByTagName("pic")->item(0)->nodeValue;
-                    
+                    $this->color = $user->getElementsByTagName("color")->item(0)->nodeValue;         
                 }
             }
         }
@@ -37,7 +39,7 @@
          */
         public function get_image()
         {
-            return "<img src='".$this->image."' />";
+            return "<img src='".$this->image."' style='border-color:". $this->color." ' />";
         }
 
         /** 
@@ -63,6 +65,13 @@
         public function get_numbooks(){
             $mybooks = new BooksParse("bookdata/".$this->username.".xml");
             return $mybooks->get_numBooks();
+        }
+        
+        /** 
+         * Retrieve the user's color preference.
+         */
+        public function get_color(){
+           return $this->color;
         }
     }
 ?>

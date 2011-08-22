@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<books>
+    <book>
+        <title>Fragile Things</title>
+        <author>Neil Gaiman</author>
+        <available>True</available>
+        <format>Softcover</format>
+        <borrowers>None</borrowers>
+        <rating>8</rating>
+    </book>
+    <book>
+        <title>Mort</title>
+        <author>Terry Pratchett</author>
+        <available>True</available>
+        <format>Softcover</format>
+        <borrowers>None</borrowers>
+        <rating>7</rating>
+    </book>
+    <book>
+        <title>Good Omens</title>
+        <author>Neil Gaiman, Terry Pratchett</author>
+        <available>True</available>
+        <format>Softcover</format>
+        <borrowers>None</borrowers>
+        <rating>10</rating>
+    </book>
+    <book>
+        <title>Tell All</title>
+        <author>Chuck Palahniuk</author>
+        <available>True</available>
+        <format>Hardcover</format>
+        <borrowers>None</borrowers>
+        <rating>6</rating>
+    </book>
+    <book>
+        <title>Someplace To Be Flying</title>
+        <author>Charles De Lint</author>
+        <available>True</available>
+        <format>Hardcover</format>
+        <borrowers>None</borrowers>
+        <rating>7</rating>
+    </book>
+    <book>
+        <title>When We Are Engulfed In Flames</title>
+        <author>David Sedaris</author>
+        <available>True</available>
+        <format>Softcover</format>
+        <borrowers>None</borrowers>
+        <rating>8</rating>
+    </book>
+    <book>
+        <title>Regarding Ducks and Universes</title>
+        <author>Neve Maslakovic</author>
+        <available>True</available>
+        <format>Softcover</format>
+        <borrowers>None</borrowers>
+        <rating>8</rating>
+    </book>
+    <book>
+        <title>Anthem</title>
+        <author>Ayn Rand</author>
+        <available>True</available>
+        <format>Softcover</format>
+        <borrowers>None</borrowers>
+        <rating>6</rating>
+    </book>
+</books>

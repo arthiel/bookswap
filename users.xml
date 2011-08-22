@@ -3,6 +3,7 @@
     <user>
         <username>ducktape</username>
         <name>Emily Egeland</name>
+        <color>#60A0A0</color>
         <auth>admin</auth>
         <pic>user_imgs/ducktape.jpg</pic>
         <books>bookdata/ducktape.xml</books>
@@ -10,8 +11,16 @@
     <user>
         <username>clockfort</username>
         <name>Chris Lockfort</name>
+        <color>#6060A0</color>
         <auth>admin</auth>
         <pic>user_imgs/clockfort.jpg</pic>
         <books>bookdata/clockfort.xml</books>
+    </user>
+    <user>
+        <username>vickiek</username>
+        <name>Vickie Krauchunas</name>
+        <color>#A060A0</color>
+        <pic>user_imgs/vickiek.jpg</pic>
+        <books>bookdata/vickiek.xml</books>
     </user>
 </users>

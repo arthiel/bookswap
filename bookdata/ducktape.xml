@@ -9,7 +9,7 @@
         <rating>5</rating>
     </book>
     <book>
-        <title>30 Second Economics</booktitle>
+        <title>30 Second Economics</title>
         <author>Donald Marron</author>
         <available>False</available>
         <format>Book</format>
